@@ -14,7 +14,10 @@ public class Compte implements Serializable {
 
     }
     Compte(String numero, Date dateCreation, double solde) {
-
+        super();
+        this.numero = numero;
+        this.dateCreation = dateCreation;
+        this.solde = solde;
     }
 
     // Getters & Setters
